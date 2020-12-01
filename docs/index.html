@@ -1,13 +1,95 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>TipsNote : GitHub Pages Sample</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/3d-factory/css-ms-root/root.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>css-ms-root</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://bulma.io/css/bulma-docs.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/3d-factory/css-ms-root/root.css">
+  <style>
+  body {
+    padding: 40px 0;
+  }
+  .button {
+    border: none;
+  }
+  .table-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .table {
+    width: 100%;
+    margin: 40px auto 0 auto;
+  }
+  .table tr td {
+    vertical-align: middle;
+  }
+  </style>
 </head>
 <body>
-<main>
-  <h1>GitHub Pages のサンプルです</h1>
-</main>
+
+  <div class="table-container">
+
+    <article class="media is-large">
+      <div class="media-left">
+        <p class="title is-5">1</p>
+      </div>
+      <div class="media-content">
+        <p class="title is-5">
+          <strong>CDN</strong>
+          (&nbsp;<a href="https://cdn.jsdelivr.net/gh/3d-factory/css-ms-root/root.css" target="_blank">root.css</a>&nbsp;|&nbsp;<a href="https://github.com/3d-factory/css-ms-root" target="_blank">github</a>&nbsp;)
+          <br><br>
+          <code>
+            https://cdn.jsdelivr.net/gh/3d-factory/css-ms-root/root.css
+          </code>
+        </p>
+      </div>
+    </article>
+    <article class="media is-large">
+      <div class="media-left">
+        <p class="title is-5">2</p>
+      </div>
+      <div class="media-content">
+        <p class="title is-5">
+          <strong>How to use</strong>
+          <br><br>
+          <code>
+          div {
+            color: var(--dark);
+          }
+          </code>
+        </p>
+      </div>
+    </article>
+
+    <table class="table is-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>name</th>
+          <th>var</th>
+          <th>color</th>
+          <th>sample</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><code>dark</code></td>
+          <td><code>var(--dark)</code></td>
+          <td>
+            <span class="bd-color" style="background: var(--dark);"></span>
+            <code>dark</code>
+          </td>
+          <td>
+            <a class="button" style="background: var(--dark); color: #fff;">Button</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
 </body>
 </html>
