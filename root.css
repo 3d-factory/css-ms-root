@@ -1,0 +1,78 @@
+:root {
+  --dark: black;
+  --dark-1: rgba(0, 0, 0, 0.87);
+  --dark-2: rgba(0, 0, 0, 0.7);
+  --dark-3: rgba(0, 0, 0, 0.6);
+  --dark-4: rgba(0, 0, 0, 0.5);
+  --dark-5: rgba(0, 0, 0, 0.4);
+  --dark-6: rgba(0, 0, 0, 0.26);
+  --dark-7: rgba(0, 0, 0, 0.15);
+  --dark-8: rgba(0, 0, 0, 0.12);
+  --dark-9: rgba(0, 0, 0, 0.05);
+
+  --light: white;
+  --light-1: rgba(255, 255, 255, 0.87);
+  --light-2: rgba(255, 255, 255, 0.7);
+  --light-3: rgba(255, 255, 255, 0.6);
+  --light-4: rgba(255, 255, 255, 0.5);
+  --light-5: rgba(255, 255, 255, 0.4);
+  --light-6: rgba(255, 255, 255, 0.26);
+  --light-7: rgba(255, 255, 255, 0.15);
+  --light-8: rgba(255, 255, 255, 0.12);
+  --light-9: rgba(255, 255, 255, 0.05);
+
+  --brand: #8ec748;
+  --primary: #37b0be;
+  --primary-strong: #37b0be;
+  --primary-darken: #319eaa;
+
+  --info: #4b9bd8;
+  --info-strong: #4b9bd8;
+  --info-darken: #368fd3;
+
+  --success: #2ca52c;
+  --success-strong: #2ca52c;
+  --success-darken: #279127;
+
+  --warning: #ec8313;
+  --warning-strong: #ec8313;
+  --warning-darken: #d47611;
+
+  --danger: #db5757;
+  --danger-strong: #db5757;
+  --danger-darken: #d74242;
+
+  --background: white;
+  --background-1: white;
+  --background-2: whitesmoke;
+  --background-3: whitesmoke;
+  --background-4: #ededed;
+  --background-alpha: rgba(0, 0, 0, 0.05);
+
+  --border: #d1d8dc;
+  --border-1: rgba(0, 0, 0, 0.26);
+
+  --shadow-alpha: rgba(0, 0, 0, 0.15);
+  --shadow-alpha-thin: rgba(0, 0, 0, 0.075);
+  --shadow-primary-alpha: rgba(55, 176, 190, 0.6);
+  --shadow-info-alpha: rgba(75, 155, 216, 0.6);
+  --shadow-success-alpha: rgba(44, 165, 44, 0.6);
+  --shadow-warning-alpha: rgba(236, 131, 19, 0.6);
+  --shadow-danger-alpha: rgba(219, 87, 87, 0.6);
+
+  --focus-darken: #0f7dd2;
+  --focus-alpha: rgba(36, 151, 240, 0.5);
+  --focus-alpha-thin: rgba(36, 151, 240, 0.36);
+
+  --disabled-background-color: #bdbdbd;
+  --disabled-border-color: #eef0f2;
+  --disabled-color: rgba(0, 0, 0, 0.26);
+
+  --border-radius-s: 3px;
+  --border-radius-m: 8px;
+  --border-radius-l: 16px;
+
+  --font-weight-normal: normal;
+  --font-weight-middle: 500;
+  --font-weight-bold: 700;
+}
